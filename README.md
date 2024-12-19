@@ -16,6 +16,9 @@ testes/
 │   ├── livro/
 │   │   ├── livro.go               # Implementação da classe Livro
 │   │   └── livro_test.go          # Testes unitários para a classe Livro
+│   ├── triangulo/
+│   │   ├── triangle.go            # Implementação da classe Triangulo
+│   │   └── triangle_test.go       # Testes unitários para a classe Triangulo
 │   └── oficina/
 │       ├── mecanico.go            # Implementação da classe Mecanico
 │       ├── mecanico_test.go       # Testes unitários para a classe Mecanico
