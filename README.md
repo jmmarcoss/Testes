@@ -13,9 +13,16 @@ testes/
 │   ├── calculadora/
 │   │   ├── calculadora.go         # Implementação da funcionalidade de cálculo
 │   │   └── calculadora_test.go    # Testes unitários para a funcionalidade de cálculo
-│   └── livro/
-│       ├── livro.go               # Implementação da classe Livro
-│       └── livro_test.go          # Testes unitários para a classe Livro
+│   ├── livro/
+│   │   ├── livro.go               # Implementação da classe Livro
+│   │   └── livro_test.go          # Testes unitários para a classe Livro
+│   └── oficina/
+│       ├── mecanico.go            # Implementação da classe Mecanico
+│       ├── mecanico_test.go       # Testes unitários para a classe Mecanico
+│       ├── servico.go             # Implementação da classe Servico
+│       ├── servico_test.go        # Testes unitários para a classe Servico
+│       ├── veiculo.go             # Implementação da classe Veiculo
+│       └── veiculo_test.go        # Testes unitários para a classe Veiculo
 ├── main.go                        # Ponto de entrada principal do projeto
 ├── go.mod                         # Arquivo de gerenciamento de dependências do Go
 └── README.md                      # Documentação do projeto
