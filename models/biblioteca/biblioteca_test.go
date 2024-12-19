@@ -1,7 +1,7 @@
 package biblioteca
 
 import (
-	liv "leet/models/livro"
+	liv "testes/models/livro"
 	"testing"
 )
 

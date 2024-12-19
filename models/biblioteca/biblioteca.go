@@ -1,6 +1,6 @@
 package biblioteca
 
-import liv "leet/models/livro"
+import liv "testes/models/livro"
 
 type Biblioteca struct {
 	nome        string
@@ -43,7 +43,7 @@ func (b *Biblioteca) SetAnoFundacao(anoFundacao int) {
 }
 
 func (b *Biblioteca) PatrimonioHistorico() bool {
-	return b.anoFundacao < 1980
+	return b.anoFundacao < 1950
 }
 
 func (b *Biblioteca) ConsultarLivros() []*liv.Livro {
